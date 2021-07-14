@@ -1,3 +1,4 @@
+
 const fs = require("fs");
 const generatePage = require("./src/page-template");
 
@@ -40,6 +41,7 @@ fs.writeFile("index.html", generatePage(name, github), err => {
 // };
 
 // printProfileData(profileDataArgs);
+
 
 // const message = "Hello Node!";
 
